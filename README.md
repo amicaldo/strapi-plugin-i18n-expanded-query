@@ -6,6 +6,7 @@ This plugin solves that.
 ## ❗ Requirements
 
 - At least Strapi v4.10.0
+- i18n Plugin installed
 
 ## 🔧 Installation
 
