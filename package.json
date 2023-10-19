@@ -1,5 +1,5 @@
 {
-  "name": "strapi-plugin-i18n-expanded-query",
+  "name": "@amicaldo/strapi-plugin-i18n-expanded-query",
   "version": "1.0.0",
   "description": "Addon for Strapi i18n plugin to allow the usage of locale query parameter for all endpoints.",
   "repository": {
