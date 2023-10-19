@@ -2,6 +2,14 @@
   "name": "strapi-plugin-i18n-expanded-query",
   "version": "0.0.0",
   "description": "Addon for Strapi i18n plugin to allow the usage of locale query parameter for all endpoints.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amicaldo/strapi-plugin-i18n-expanded-query.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amicaldo/strapi-plugin-i18n-expanded-query/issues"
+  },
+  "homepage": "https://github.com/amicaldo/strapi-plugin-i18n-expanded-query",
   "strapi": {
     "name": "i18n-expanded-query",
     "displayName": "Internationalization: Expanded Query",
@@ -32,5 +40,15 @@
     "develop": "tsc -p tsconfig.server.json -w",
     "build": "tsc -p tsconfig.server.json"
   },
-  "license": "MIT"
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "files": [
+    "dist/server",
+    "package.json",
+    "package-lock.json",
+    "README.md",
+    "strapi-server.js"
+  ]
 }
